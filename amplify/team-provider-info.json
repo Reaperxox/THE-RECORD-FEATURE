@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-yogasana-dev-75721-authRole",
+      "UnauthRoleArn": "arn:aws:iam::004024412519:role/amplify-yogasana-dev-75721-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::004024412519:role/amplify-yogasana-dev-75721-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-yogasana-dev-75721-deployment",
+      "UnauthRoleName": "amplify-yogasana-dev-75721-unauthRole",
+      "StackName": "amplify-yogasana-dev-75721",
+      "StackId": "arn:aws:cloudformation:us-east-1:004024412519:stack/amplify-yogasana-dev-75721/c13e96c0-b849-11eb-af8f-0a56f3b6d8ad",
+      "AmplifyAppId": "d13ukvuhlbmzrh"
+    },
+    "categories": {
+      "auth": {
+        "yogasanada842357": {}
+      }
+    }
+  }
+}

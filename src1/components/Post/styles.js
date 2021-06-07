@@ -3,7 +3,7 @@ import {StyleSheet, Dimensions} from 'react-native';
 const styles = StyleSheet.create({
   container: {
     width: '100%',
-    height: Dimensions.get('window').height -20 ,
+    height: Dimensions.get('window').height -70,
   },
   video: {
     position: 'absolute',
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   },
   songRow: {
     flexDirection: 'row',
-    // alignItems: 'center',
+    alignItems: 'center',
   },
   songName: {
     color: '#fff',
@@ -47,8 +47,8 @@ const styles = StyleSheet.create({
     width: 50,
     height: 50,
     borderRadius: 25,
-    borderWidth: 5,
-    borderColor: '#4c4c4c',
+    borderWidth: 3,
+    borderColor: '#fff',
   },
   rightContainer: {
     alignSelf: 'flex-end',

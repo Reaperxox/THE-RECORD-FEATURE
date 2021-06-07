@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {View, TouchableWithoutFeedback, Text, Image, TouchableOpacity} from 'react-native';
+import {View, TouchableWithoutFeedback, Text, Image, TouchableOpacity, BackHandler} from 'react-native';
 
 import Video from 'react-native-video';
 import styles from './styles';
@@ -70,7 +70,7 @@ const Post = (props) => {
 
             <View style={styles.iconContainer}>
               <FontAwesome name={'commenting'} size={40} color="white" />
-              <Text style={styles.statsLabel}>{post.comments}</Text>
+              <Text style={styles.statsLabel}>{post.Comments}</Text>
             </View>
 
             <View style={styles.iconContainer}>
@@ -86,7 +86,7 @@ const Post = (props) => {
 
               <View style={styles.songRow}>
                 <Entypo name={'beamed-note'} size={24} color="white" />
-                <Text style={styles.songName}>{post.song}</Text>
+                <Text style={styles.songName}>{post.song.name}</Text>
               </View>
             </View>
 
@@ -101,5 +101,6 @@ const Post = (props) => {
   </View>
 );
 };
+
 
 export default Post;
